@@ -59,6 +59,8 @@ $(document).ready(function() {
             const container = document.querySelector('.fireworks')
             const fireworks = new Fireworks.default(container)
             fireworks.start()
+            $("#rickroled-container").addClass('opacity')
+            $("#rickroled")[0].play()
         }
     });
 

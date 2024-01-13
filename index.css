@@ -13,7 +13,7 @@ body {
 .button {
     width: 50px;
     height: 50px;
-    top: 55%;
+    top: 35%;
     position: fixed;
     left: 65%;
     margin-top: -45px;
@@ -62,7 +62,7 @@ body {
 .inner-cutout {
     left: 0;
     right: 0;
-    top: 30%;
+    top: 10%;
     position: fixed;
     padding: 40px 0;
     display: block;
@@ -119,7 +119,7 @@ body {
     opacity: 1;
     position: fixed;
     left: 30%;
-    top: 50%;
+    top: 30%;
 }
 
 .close:before,
@@ -139,4 +139,12 @@ body {
 
 .close:after {
     transform: rotate(-45deg);
+}
+
+.opacity {
+    opacity: 1 !important;
+}
+
+.no-opacity {
+    opacity: 0
 }
